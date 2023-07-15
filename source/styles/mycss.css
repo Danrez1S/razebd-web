@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+
+
+body {
+  font-family: Raleway, serif;
+  background: linear-gradient(201deg, #000 0%, #002100 100%);
+}
+
+
+p {
+  color: white;
+}
+
+.nav-link {
+  color: rgb(147, 147, 147);
+
+}
+.navbar-nav .nav-link.active {
+  color: white;
+}
+.navbar-brand img {
+  width: 100px;
+}
+
+.navbar-toggler {
+  background-color: rgb(157, 157, 157);
+}
+
+.card-body {
+  background-color: #000;
+}
+
+.card-text {
+  color: white;
+} 
+
+.card-title { 
+  color: white;
+} 
+
+.btn-btn-primary {
+  background-color: #124800;
+  color: white;
+}
+
+.btn-btn-btn-primary {
+  background-color: #228800;
+  color: white;
+}
+
+.btn-btn-btn-primary:hover {
+  background-color:whitesmoke;
+}
+
+
+
+.btn-btn-primary:hover {
+  background-color:whitesmoke;
+}
+
+.mycardborder {
+  border: 0px solid  #000000;
+}
+
+.sidebar {
+    color: #40ff00;
+    background: linear-gradient(270deg, #000 0%, #124800 52%, #000000 );
+}
+
+
+.card a{
+  text-decoration: none;
+  color: white;
+}
+
+.slide-text,
+.footer-text{
+  color: white;
+  margin: auto auto;
+}
+
+footer {
+  background:rgb(14, 14, 14);
+}
+
+.media-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yt-anim{
+  animation: myAnimYt 3s ease 2s infinite normal forwards;
+}
+
+@keyframes myAnimYt {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+.tel-anim {
+  animation: myAnimTeleg 3s ease 3s infinite normal forwards;
+}
+
+@keyframes myAnimTeleg {
+	0%,
+	100% {
+		transform: translateY(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateY(-8px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateY(8px);
+	}
+
+	80% {
+		transform: translateY(6.4px);
+	}
+
+	90% {
+		transform: translateY(-6.4px);
+	}
+}
+
+.call-anim {
+  animation: myAnim 3s ease 0s infinite normal forwards;
+}
+
+
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
